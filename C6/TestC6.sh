@@ -20,11 +20,11 @@ gcc -Wall -Werror -Wextra main2.c ../ex2/*.c
 
 printf "####${GREEN}EX3${NC}####\n"
 gcc -Wall -Werror -Wextra main3.c ../ex3/*.c
-./a.out
+./a.out this is joined
 
 printf "####${GREEN}EX4${NC}####\n"
 gcc -Wall -Werror -Wextra main4.c ../ex4/*.c
-./a.out
+./a.out "-5a8fee" "0123456789abcdef" "poneyvif"
 
 printf "####${GREEN}EX4${NC}####\n"
 gcc -Wall -Werror -Wextra main5.c ../ex5/*.c
